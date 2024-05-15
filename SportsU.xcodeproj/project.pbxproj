@@ -11,6 +11,13 @@
 		E690D3372BF2EC9800DB1FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D3362BF2EC9800DB1FA0 /* ContentView.swift */; };
 		E690D3392BF2EC9900DB1FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E690D3382BF2EC9900DB1FA0 /* Assets.xcassets */; };
 		E690D33C2BF2EC9900DB1FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E690D33B2BF2EC9900DB1FA0 /* Preview Assets.xcassets */; };
+		E690D3472BF42FA000DB1FA0 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D3462BF42FA000DB1FA0 /* ScheduleView.swift */; };
+		E690D3492BF4307B00DB1FA0 /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D3482BF4307B00DB1FA0 /* ScheduleListView.swift */; };
+		E690D34B2BF4309600DB1FA0 /* TeamsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D34A2BF4309600DB1FA0 /* TeamsStruct.swift */; };
+		E690D34D2BF430A900DB1FA0 /* GetCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D34C2BF430A900DB1FA0 /* GetCalendar.swift */; };
+		E690D3512BF431D500DB1FA0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D3502BF431D500DB1FA0 /* TestView.swift */; };
+		E690D3532BF43A9F00DB1FA0 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D3522BF43A9F00DB1FA0 /* Formatters.swift */; };
+		E690D3552BF43ACD00DB1FA0 /* ScheduleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D3542BF43ACD00DB1FA0 /* ScheduleRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E690D3362BF2EC9800DB1FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E690D3382BF2EC9900DB1FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E690D33B2BF2EC9900DB1FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E690D3462BF42FA000DB1FA0 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		E690D3482BF4307B00DB1FA0 /* ScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		E690D34A2BF4309600DB1FA0 /* TeamsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsStruct.swift; sourceTree = "<group>"; };
+		E690D34C2BF430A900DB1FA0 /* GetCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCalendar.swift; sourceTree = "<group>"; };
+		E690D3502BF431D500DB1FA0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E690D3522BF43A9F00DB1FA0 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		E690D3542BF43ACD00DB1FA0 /* ScheduleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +67,11 @@
 			children = (
 				E690D3342BF2EC9800DB1FA0 /* SportsUApp.swift */,
 				E690D3362BF2EC9800DB1FA0 /* ContentView.swift */,
+				E690D3442BF42F6A00DB1FA0 /* Views */,
+				E690D3522BF43A9F00DB1FA0 /* Formatters.swift */,
 				E690D3382BF2EC9900DB1FA0 /* Assets.xcassets */,
 				E690D33A2BF2EC9900DB1FA0 /* Preview Content */,
+				E690D3502BF431D500DB1FA0 /* TestView.swift */,
 			);
 			path = SportsU;
 			sourceTree = "<group>";
@@ -65,6 +82,26 @@
 				E690D33B2BF2EC9900DB1FA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E690D3442BF42F6A00DB1FA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E690D3452BF42F6F00DB1FA0 /* ScheduleViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E690D3452BF42F6F00DB1FA0 /* ScheduleViews */ = {
+			isa = PBXGroup;
+			children = (
+				E690D3462BF42FA000DB1FA0 /* ScheduleView.swift */,
+				E690D3482BF4307B00DB1FA0 /* ScheduleListView.swift */,
+				E690D3542BF43ACD00DB1FA0 /* ScheduleRowView.swift */,
+				E690D34A2BF4309600DB1FA0 /* TeamsStruct.swift */,
+				E690D34C2BF430A900DB1FA0 /* GetCalendar.swift */,
+			);
+			path = ScheduleViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E690D3552BF43ACD00DB1FA0 /* ScheduleRowView.swift in Sources */,
+				E690D3512BF431D500DB1FA0 /* TestView.swift in Sources */,
+				E690D34B2BF4309600DB1FA0 /* TeamsStruct.swift in Sources */,
+				E690D3532BF43A9F00DB1FA0 /* Formatters.swift in Sources */,
 				E690D3372BF2EC9800DB1FA0 /* ContentView.swift in Sources */,
+				E690D3492BF4307B00DB1FA0 /* ScheduleListView.swift in Sources */,
 				E690D3352BF2EC9800DB1FA0 /* SportsUApp.swift in Sources */,
+				E690D34D2BF430A900DB1FA0 /* GetCalendar.swift in Sources */,
+				E690D3472BF42FA000DB1FA0 /* ScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
